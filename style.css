@@ -1,0 +1,29 @@
+.land {
+  background-color: #7cfc00;
+}
+
+#field {
+  display: grid;
+  grid-template-columns: repeat(12, 32px);
+  grid-template-rows: repeat(12, 32px);
+  gap: 2px;
+}
+
+.cell {
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  background-color: #8b4513;
+}
+
+.dirt {
+  background-image: url("assets/dirt.png");
+}
+
+.rock {
+  background-image: url("assets/rock.png");
+}
+
+.weed {
+  background-image: url("assets/weed.png");
+}
